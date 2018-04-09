@@ -1,0 +1,60 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.wrapper {
+	width: 1140px;
+	margin: 0 auto;
+}
+
+.content {
+	margin: 15% 0;
+	padding: 40px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	background-color: #bee;
+	border-radius: 5px;
+	border: 3px solid #add;
+}
+
+.category {
+	padding: 20px;	
+}
+
+h3, a {
+	font-family: 'Consolas';
+}
+
+h3 {
+	color: #699;
+	margin-bottom: 20px;
+}
+
+ul {
+	list-style: none;
+}
+
+li, .back-link {
+	padding: 5px 20px;
+	border: 2px solid #699;
+	margin-bottom: 10px;
+	text-align: center;
+	border-radius: 3px;
+}
+
+li:hover, .back-link:hover {
+	background-color: #add;
+}
+
+a {
+	color: #699;
+	text-decoration: none;
+}
+
+.task {
+	padding: 0 10%;
+	margin-bottom: 40px;
+}
