@@ -16,7 +16,7 @@ function binarySearch(number, {from, to}) {
 function doSearch(number, array, {from, to}) {
 	if (from > to ) {
 		console.log("Not found!");
-		return false;
+		return -1;
 	}
 	
 	var mid = Math.round((to+from)/2);
