@@ -1,4 +1,4 @@
-function f(value) {
+function factorial(value) {
 	var result = 1;
 	for (var i = value; i > 0; i--){
 		result*=i;
@@ -7,4 +7,4 @@ function f(value) {
 	return result;
 }
 
-f(5);
+factorial(5);
