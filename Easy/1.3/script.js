@@ -1,12 +1,11 @@
 var inputArr = [1, 4, 2];
-function returnAvarage() {
+function returnAvarage(inputArr) {
 	var sum = 0;
-	var i = 0;
-	for (; i < inputArr.length; i++) {
+	for (var i = 0; i < inputArr.length; i++) {
 		sum += inputArr[i];
 	}
 	console.log(sum/i);
 
 }
 
-returnAvarage();
+returnAvarage(inputArr);
